@@ -56,6 +56,8 @@ Užklausa:
 http://localhost:8081/taxes/import
 
 3. Paieška. Privaloma paduoti du parametrus: municipality ir date. Jeigu pagal paduotą datą atitinka keli rezultatai tai rodomas tas, kurio datų rėžis yra mažesnis. Tai yra daily tax bus rodomas prioriteto tvarka, jei neatitinka daily tax tai bus rodomas weekly tax ir t.t.
+Užklausos pvz:
+http://localhost:8081/taxes/find?municipality=Vilnius&date=2016-01-01
 
 4. Update
 Užklausos pvz:
